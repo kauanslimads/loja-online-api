@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "gconf": "git config --local user.name \"Kauan Lima\" && git config --local user.email \"kauanslimads@gmail.com\"",
-    "all": "npm run gconf"
+    "nest-i": "npm i -g @nestjs/cli",
+    "all": "npm run gconf && npm run nest-i"
   },
   "repository": {
     "type": "git",
