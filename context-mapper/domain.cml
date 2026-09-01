@@ -1,0 +1,40 @@
+Domain LojaOnline {
+    domainVisionStatement = ""
+
+    Subdomain Catalogo_de_Produtos {
+        type = CORE_DOMAIN
+        domainVisionStatement = ""
+    }
+
+    Subdomain Compras {
+        type = CORE_DOMAIN
+        domainVisionStatement = ""
+    }
+
+    Subdomain Sistema_de_Pagamento_da_Loja {
+        type = CORE_DOMAIN
+        domainVisionStatement = ""
+    }
+
+    Subdomain Processador_de_Pagamentos {
+        type = CORE_DOMAIN
+        domainVisionStatement = ""
+    }
+
+    Subdomain Gestao_de_Pedidos {
+        type = CORE_DOMAIN
+        domainVisionStatement = ""
+    }
+
+    Subdomain Estoque {
+        type = CORE_DOMAIN
+        domainVisionStatement = ""
+    }
+
+    Subdomain Conta_do_Cliente {
+        type = CORE_DOMAIN
+        domainVisionStatement = ""
+    }
+
+}
+
