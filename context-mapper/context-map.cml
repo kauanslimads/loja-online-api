@@ -1,0 +1,23 @@
+import "./bounded-context.cml"
+
+ContextMap LojaOnline {
+    type = SYSTEM_LANDSCAPE
+    state = AS_IS
+    
+    contains Catalogo_de_Produtos
+    contains Compras
+    contains Sistema_de_Pagamento_da_Loja
+    contains Processador_de_Pagamentos
+    contains Gestao_de_Pedidos
+    contains Estoque
+    contains Conta_do_Cliente
+
+    Estoque [OHS, PL] -> [CF] Catalogo_de_Produtos
+    Catalogo_de_Produtos [PL] -> [ACL] Compras
+    Compras [PL] -> [CF] Sistema_de_Pagamento_da_Loja
+    Processador_de_Pagamentos [OHS, PL] -> [ACL] Sistema_de_Pagamento_da_Loja
+    Sistema_de_Pagamento_da_Loja [PL] -> [CF] Gestao_de_Pedidos
+    Sistema_de_Pagamento_da_Loja [PL]-> [CF] Estoque
+    Gestao_de_Pedidos [OHS, PL] -> [ACL] Conta_do_Cliente
+}
+

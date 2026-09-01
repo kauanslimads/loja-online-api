@@ -1,0 +1,58 @@
+import "./domain.cml"
+
+BoundedContext Catalogo_de_Produtos implements Catalogo_de_Produtos {
+    type = FEATURE
+    domainVisionStatement = ""
+    implementationTechnology = ""
+    responsibilities = ""
+    knowledgeLevel = CONCRETE
+}
+
+BoundedContext Compras implements Compras {
+    type = FEATURE
+    domainVisionStatement = ""
+    implementationTechnology = ""
+    responsibilities = ""
+    knowledgeLevel = CONCRETE
+}
+
+BoundedContext Sistema_de_Pagamento_da_Loja implements Sistema_de_Pagamento_da_Loja {
+    type = FEATURE
+    domainVisionStatement = ""
+    implementationTechnology = ""
+    responsibilities = ""
+    knowledgeLevel = CONCRETE
+}
+
+BoundedContext Processador_de_Pagamentos implements Processador_de_Pagamentos {
+    type = FEATURE
+    domainVisionStatement = ""
+    implementationTechnology = ""
+    responsibilities = ""
+    knowledgeLevel = CONCRETE
+}
+
+BoundedContext Gestao_de_Pedidos implements Gestao_de_Pedidos {
+    type = FEATURE
+    domainVisionStatement = ""
+    implementationTechnology = ""
+    responsibilities = ""
+    knowledgeLevel = CONCRETE
+}
+
+BoundedContext Estoque implements Estoque {
+    type = FEATURE
+    domainVisionStatement = ""
+    implementationTechnology = ""
+    responsibilities = ""
+    knowledgeLevel = CONCRETE
+}
+
+BoundedContext Conta_do_Cliente implements Conta_do_Cliente {
+    type = FEATURE
+    domainVisionStatement = ""
+    implementationTechnology = ""
+    responsibilities = ""
+    knowledgeLevel = CONCRETE
+}
+
